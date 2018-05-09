@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <div className="App">
         <br /> <br />
-        <button onClick={() => this.changeName('lalit=>name change through state anonym')}>Change state using Anonymous Function</button>
+        <button onClick={() => this.changeName('lalitt=>name change through state anonym')}>Change state using Anonymous Function</button>
         <button onClick={this.changeName.bind(this, 'lalit=>name change through state bind')}>Change state using Bind </button>
         <br /> <br />
         <input type="text" onChange={this.changeNamefromInput} value={this.state.name} />
